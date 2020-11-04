@@ -22,7 +22,27 @@ Is transformed into:
 function createThing(paramA, paramB) {
 }
 
-myService.$inject = ['paramA', 'paramB']
+myService.$inject = ['paramA', 'paramB'];
+```
+
+ES classes are also supported:
+
+```js
+// @inject
+class Thing {
+  constructor(paramA, paramB) { … }
+}
+```
+
+Is transformed into:
+
+```js
+// @inject
+class Thing {
+  constructor(paramA, paramB) { … }
+}
+
+Thing.$inject = ['paramA', 'paramB'];
 ```
 
 ## Usage
