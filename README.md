@@ -1,5 +1,7 @@
 # babel-plugin-inject-args
 
+![npm](https://img.shields.io/npm/v/babel-plugin-inject-args)
+
 Babel plugin that processes specially annotated functions or classes and
 exposes the names of their parameters as runtime-accessible metadata. This can
 be used by dependency injection containers to call the function or instantiate
