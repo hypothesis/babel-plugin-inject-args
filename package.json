@@ -1,0 +1,20 @@
+{
+  "name": "babel-plugin-inject-args",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "BSD-2-Clause",
+  "description": "Babel plugin that makes function argument names accessible at runtime",
+  "repository": "https://github.com/hypothesis/babel-plugin-inject-args",
+  "author": "Hypothesis Developers",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  }
+}
