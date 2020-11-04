@@ -9,7 +9,7 @@ To enable this metadata for a function or class, add the string `@inject`
 in a leading comment. The plugin will add a `$inject` property to the object
 which contains an array of parameter names. For example, this source:
 
-```
+```js
 // @inject
 function createThing(paramA, paramB) {
 }
@@ -17,7 +17,7 @@ function createThing(paramA, paramB) {
 
 Is transformed into:
 
-```
+```js
 // @inject
 function createThing(paramA, paramB) {
 }
@@ -37,7 +37,7 @@ Then enable the plugin in your Babel configuration, for example in a `.babelrc` 
 
 ```
 {
-  "plugins": ["babel-plugin-inject-args"]
+  "plugins": ["inject-args"]
 }
 ```
 
