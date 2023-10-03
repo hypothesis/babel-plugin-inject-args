@@ -24,7 +24,7 @@ Is transformed into:
 function createThing(paramA, paramB) {
 }
 
-myService.$inject = ['paramA', 'paramB'];
+createThing.$inject = ['paramA', 'paramB'];
 ```
 
 ES classes are also supported:
