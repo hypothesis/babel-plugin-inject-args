@@ -7,9 +7,9 @@
   "repository": "https://github.com/hypothesis/babel-plugin-inject-args",
   "author": "Hypothesis Developers",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "@babel/core": "^7.23.2",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
   },
   "files": [
     "index.js"
