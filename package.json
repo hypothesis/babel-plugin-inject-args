@@ -16,5 +16,6 @@
   ],
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "packageManager": "yarn@4.0.0"
 }
