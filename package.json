@@ -9,7 +9,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "chai": "^4.3.10",
-    "mocha": "^10.2.0"
+    "mocha": "^11.7.5"
   },
   "files": [
     "index.js"
